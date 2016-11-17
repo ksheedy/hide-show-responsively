@@ -12,15 +12,27 @@ html {
   box-sizing: inherit;
 }
 
-img {
-
+body {
+  text-align: center;
 }
-@media only screen and (min-width: 25em) {
 
+img {
+  display: inline-block;
+  max-width: 25em;
+}
+
+@media only screen and (min-width: 25em) {
+  img {
+    display: inline-block;
+    max-width: 25em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
-
+  img {
+  display: inline-block;
+  max-width: 25em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
