@@ -38,7 +38,7 @@ img:last-child {
 
   img {
     display: inline-block;
-    width: 40%;
+    width: 49%;
   }
 
   img:nth-child(2) {
@@ -54,7 +54,7 @@ img:last-child {
 
   img {
     display: inline-block;
-    width: 30%;
+    width: 32.5%;
   }
 
   img:first-child {
@@ -75,7 +75,11 @@ img:last-child {
 
   img {
     display: inline-block;
-    width: 25%;
+    width: 24%;
+  }
+
+  img:first-child {
+    display: inline-block;
   }
 
   img:nth-child(2) {
